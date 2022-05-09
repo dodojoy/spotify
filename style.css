@@ -1,0 +1,98 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;  
+    align-items: center;
+
+}
+
+header img {
+    width: 132px;
+    height: 40px;
+    padding-left: 100px;
+    cursor: pointer;
+}
+
+header nav {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+header nav a:hover{
+    color: #1ed760;
+}
+
+header .barra {
+    padding-left: 30px;
+}
+
+.firstSection{
+    height: 100vh;
+    width: 100%;
+    background-color: #2941ab;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.firstSection h1 {
+    margin: 0;
+    width: 1000px;
+    font-size: 150px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #1ed760;
+    text-align: center;
+    letter-spacing: -8px;
+    line-height: 110%;
+    padding-bottom: 20px;
+}
+
+.firstSection p {
+    color: #1ed760;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.firstSection button {
+    margin: 0;
+    margin-top: 25px;
+    height: 45px;
+    background-color: #1ed760;
+    border: none;
+    border-radius: 40px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-bottom: 10px;
+    padding-top: 8px;
+    padding: 11px 30px 12px 30px;
+    color: #2941ab;
+    text-transform: uppercase;
+    word-spacing: -2px;
+    cursor: pointer;
+}
+
+.firstSection button:hover {
+    transform: scale(1.1);
+}
